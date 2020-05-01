@@ -6,10 +6,18 @@ namespace C_Sharp_Fundamentals
     {
         static void Main(string[] args)
         {
-            int section = 1;
+            int section = 2;
 
             switch (section)
             {
+                case 2:
+                    B_MakingDecisions.If_ElseIf_Else_Statement();
+                    B_MakingDecisions.Swich_Statement();
+                    B_MakingDecisions.ConditionalNotOperator();
+                    B_MakingDecisions.Exercise1_CheckValidRate();
+                    B_MakingDecisions.Exercise2_LawnMovingService();
+                    B_MakingDecisions.Exercise3_GuessRandomNumber();
+                    break;
                 case 1:
                     A_UsingData.DeclareVariable();
                     A_UsingData.ArithmeticOperators();
@@ -25,6 +33,6 @@ namespace C_Sharp_Fundamentals
                     Console.WriteLine("Invalid Section");
                     break;
             }
-        }
+        } 
     }
 }
