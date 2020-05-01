@@ -6,10 +6,19 @@ namespace C_Sharp_Fundamentals
     {
         static void Main(string[] args)
         {
-            int section = 2;
+            int section = 3;
 
             switch (section)
             {
+                case 3:
+                    C_Looping.WhileLoop();
+                    C_Looping.ForLoop();
+                    C_Looping.DoWhileloop();
+                    C_Looping.NestedLoop();
+                    C_Looping.Exercise1_GetValidPayRate();
+                    C_Looping.Exercise2_SumOf1_50();
+                    C_Looping.Exercise3_GuessRandomNumber();
+                    break;
                 case 2:
                     B_MakingDecisions.If_ElseIf_Else_Statement();
                     B_MakingDecisions.Swich_Statement();
