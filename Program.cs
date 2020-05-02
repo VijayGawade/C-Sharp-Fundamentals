@@ -6,10 +6,21 @@ namespace C_Sharp_Fundamentals
     {
         static void Main(string[] args)
         {
-            int section = 3;
+            int section = 5;
 
             switch (section)
             {
+                case 5:
+                    E_Methods obj = new E_Methods();
+                    obj.CreatingMethods();
+                    break;
+                case 4:
+                    D_UsingsArrays.CreatingArray();
+                    D_UsingsArrays.ArrayMethods();
+                    D_UsingsArrays.MultiDimensionalArray();
+                    D_UsingsArrays.Exercise1_PackageDeliveryService();
+                    D_UsingsArrays.Exercise2_ClassResult();
+                    break;
                 case 3:
                     C_Looping.WhileLoop();
                     C_Looping.ForLoop();
