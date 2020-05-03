@@ -6,13 +6,29 @@ namespace C_Sharp_Fundamentals
     {
         static void Main(string[] args)
         {
-            int section = 5;
+            int section = 6;
 
             switch (section)
             {
+                case 6:
+                    {
+                        F_Classes obj = new F_Classes();
+                        obj.CallDifferentConstructors();
+                        obj.GetSetMethods();
+                        obj.Properties();
+                        obj.OperatorOverloading();
+                        obj.PassingObjectsToMethods();
+                        obj.ArrayOfObjects();
+                        obj.Exercise1_CalculateSquareArea();
+                        //obj.Exercise2_CalculateTax();
+                        obj.Exercise3_JobFeeCalculator();
+                    }
+                    break;
                 case 5:
-                    E_Methods obj = new E_Methods();
-                    obj.CreatingMethods();
+                    {
+                        E_Methods obj = new E_Methods();
+                        obj.CreatingMethods();
+                    }
                     break;
                 case 4:
                     D_UsingsArrays.CreatingArray();
